@@ -1,0 +1,62 @@
+/*general page styles*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	font-family: monospace;
+	background-color: #D2D7D3;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 50px 0 25px 0;
+	font-size: 40px;
+}
+h2 {
+	margin: 25px 0 25px 0;
+	font-size: 25px;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+}
+
+.center {
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 75px;
+}
+
+li img {
+	width: 20%;
+	border-radius: 10px;
+}
+
+/*styling of overlay elements*/
+
+#overlay {
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin-top: 10%;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+#overlay p {
+  color: white;
+  font-size: 20px;
+}

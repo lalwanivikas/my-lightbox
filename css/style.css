@@ -34,7 +34,12 @@ li {
 
 li img {
 	width: 20%;
+	border: 5px solid transparent;
 	border-radius: 10px;
+}
+
+li img:hover {
+	border: 5px solid #4ae;
 }
 
 /*styling of overlay elements*/
